@@ -13,8 +13,10 @@ When you are satisfied with your webpage and have uploaded/pushed it to your rep
 
 If your repo is't already deployable as a Github page, you can make it such by doing the following (updated instructions from [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site):
 - Make your repo public (in the settings, bottom of General tab)
-- Click the Pages tab:
+- Then click the Pages tab:
   - choose your main branch as the Source
+  - make sure /root is selected
+  - click Saves
   
 
 
