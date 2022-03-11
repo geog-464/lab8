@@ -18,7 +18,7 @@ If your repo is't already deployable as a Github page, you can make it such by d
 - Then click the Pages tab:
   - choose your main branch as the Source
   - make sure /root is selected
-  - click Saves
+  - click Save
   
 
 
