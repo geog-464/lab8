@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>Lab 8</title>
+		<link rel="icon" href="logo.ico">
+		
+		<!-- link to custom styles -->
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+
+	</head>
+	
+	<body>
+		<ul class="navbar">
+			<li class="li-nav" id="title"><h1><a href="index.html">Intro to static webpages</a></h1></li>
+			
+			<li class="li-nav">
+				<a href="https://github.com/geog-464" target="_blank"><img id="logo" src="lab8logo.png"></a>
+			</li>
+			
+			<li class="li-nav">
+				<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics" target="_blank">CSS</a>
+			</li>
+			
+			<li class="li-nav">
+				<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank">HTML</a>
+			</li>
+
+			
+		</ul>
+		
+		<div id="mapid" class="scroller2">
+			<div id="splash-grid" class='splash-grid-container'>
+				<div id='splash-item1'>
+					<p>
+						The goal of this lab is to introduce you to basic, static webpages and their standard structure. This webpage provides you with a template which you could use to learn about the various elements that make up a webpage. Your tasks are to modify the content and styling of this webpage to your liking (or replace it entirely, if you're capable of that!). Have fun with it!
+					</p>
+				</div>
+				<div id='splash-item2'>
+					
+					<ul>
+					<p>
+						What you are currently seeing is basic text contained inside an html tag called p.
+						This webpage contains no JavaScript whatsoever, but you can already see how some elements are responsive by only using CSS.<br>
+						<li>This is a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">list item</a></li>
+						<li>Experiment with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size" target="_blank">font-size units</a> px, %, em, etc.</li>
+						
+					</p>
+					</ul>
+					
+				</div>
+				<div id='splash-item3'>
+					<p>
+						<b>Deliverables:</b> Your own modified webpage, uploaded as a Github page, containing your project proposal for the GEOG 464 term project!
+						<br><br>
+						<b>Evaluation:</b> This should be an easy lab since, at minimum, you can basically get away with replacing the text in this website and call it a day! However, 50% of the this lab's evaluation will go to design, this means that (a) your webpage shouldn't contain any glaring errors (e.g. unclosed html tags that don't render properly) (b) your webpage should make sense semantically (i.e. the right html tags are used for the right elements in the overall hierarchy of the page), (c) it should look better than what you were provided with!
+					</p>
+				</div>
+				<div id='splash-item5'>
+					<img name="slide1" width ="auto" height="300px" src="lab8_fillerimage.png"/>
+				</div>	
+					
+				</h2>
+			</div>
+		<!-- remove floating path legend
+			<div id='parent-div' class='some-div'>
+				<div class='some-div' id='legend'>
+				</div>
+			</div>
+		-->
+	
+		</div>
+		
+		<footer>
+			<p>This is a Footer, which is by convention contained in the footer tag.</p>
+		</footer>
+	
+	</body>
+<!-- resources
+for getting started
+http://leafletjs.com/examples/quick-start/
+for access token
+https://www.mapbox.com/studio/account/tokens/
+for tilesets(map id)
+https://www.mapbox.com/studio/tilesets/
+
+alternatively, check out
+https://switch2osm.org/using-tiles/getting-started-with-leaflet/
+
+for loading point data from JSON
+https://asmaloney.com/2014/01/code/creating-an-interactive-map-with-leaflet-and-openstreetmap/
+and from GeoJSON (preferable?)
+http://leafletjs.com/examples/geojson/
+all about geoJSON
+http://www.macwright.org/2015/03/23/geojson-second-bite.html
+
+for loading server-side data (geojson preferable for small projects)
+http://gis.stackexchange.com/questions/76319/what-is-the-most-common-way-of-displaying-geodata-from-postgis-on-leaflet
+
+lucas: have map be full screen, slide to half-screen to give way to vignette when placemark is clicked
+
+some js sources (for geojson)
+how to link map to external geojson file https://gis.stackexchange.com/questions/113341/how-do-you-load-a-geojson-file-in-leaflet
+how to connect marker to innerHTML?
+https://stackoverflow.com/questions/26381376/leaflet-oneachfeature-mouseover-update-innerhtml-of-table
+another example of getGEOJSON (like maptime boston) http://lyzidiamond.com/posts/external-geojson-and-leaflet-the-other-way
+-->
+</html>
