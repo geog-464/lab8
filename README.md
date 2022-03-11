@@ -11,5 +11,10 @@ When you are satisfied with your webpage and have uploaded/pushed it to your rep
   - On the right-hand pane, under **Environments**, there is a *github-pages* link.
   - After clicking this link, in the following page, you are able to view the site by clicking the topmost **View deployment** link.
 
-- You can follow [these instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site) to make your repository deployable as a *Github pages site* if it isn't already the case.
+If your repo is't already deployable as a Github page, you can make it such by doing the following (updated instructions from [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site):
+- Make your repo public (in the settings, bottom of General tab)
+- Click the Pages tab:
+  - choose your main branch as the Source
+  
+
 
